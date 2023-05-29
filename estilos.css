@@ -1,0 +1,90 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+
+.container-fluid, .pb-4, .bg-black, .text-bg-dark {
+    background-color: #AF2B36;
+}
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
+
+.custom-carousel {
+    background-color: #AF2B36; /* Defina a cor desejada aqui */
+}
+
+.testimonial-text {
+    color: white; /* Defina a cor do texto como branco */
+}
+.testimonial-author {
+    color: white; /* Defina a cor do texto como branco */
+}  
+
+.text-depo {
+    color: white;
+}
+
+.partner-logo {
+    max-height: 100px;
+    margin: 20px;
+}
+
+.section-spacer {
+    margin-bottom: 40px;
+}
+.partner-logo {
+    max-height: 100px;
+    margin: 20px;
+  }
+
+  .section-spacer {
+    margin-bottom: 40px;
+  }
+
+  .footer-contact {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+    
+  }
+
+  .social-icons a {
+    margin-right: 10px;
+    color: white;
+  }
+
+.section-header {
+    margin-top: 50px; 
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6;
+    padding-bottom: 40px; /* Adiciona um espaçamento na parte inferior da seção */
+}
+
+#cursos-trilhas {     
+    background: rgba(175, 43, 54, 0.6);
+} 
+

@@ -1,0 +1,35 @@
+{
+  "name": "digitechmais",
+  "version": "1.0.0",
+  "description": "Sistema que fara a inetgração e mediação de alunos e cursos para o aprimoramento profissional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PathyOdango83/DigitechMaisBackend.git"
+  },
+  "keywords": [
+    "cursos",
+    "estudo",
+    "estudantes",
+    "mercado",
+    "de",
+    "trabalho"
+  ],
+  "author": "Equipe 1 (Hackathon Potencia --- Ifood / Hackathon Brasil)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PathyOdango83/DigitechMaisBackend/issues"
+  },
+  "homepage": "https://github.com/PathyOdango83/DigitechMaisBackend#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.3",
+    "node-sass": "^9.0.0"
+  }
+}

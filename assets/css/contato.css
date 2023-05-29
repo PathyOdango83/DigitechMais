@@ -1,0 +1,130 @@
+/*VARIÁVEIS*/
+:root{
+    --cor-da-barra: #66d49c;
+    --cor-texto-barra: #FFFFFF;
+    --botao-azul: #167BF7;
+	--cor-texto-botao: #FFFFFF;
+    --cor-de-fundo: #FFFFFF;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+	--cor-texto: #00030C;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background: var(--cor-da-barra);
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase; /*capitalização do texto*/
+	color: var(--cor-texto-barra);
+	font-weight: bold; /*negrito*/
+	font-size: 22px;
+	text-decoration: none; /*tira o sobrinhado*/
+}
+
+nav a:hover {
+	color: var(--botao-azul);
+	text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+ /*BOTÃO ENVIAR*/
+.enviar {
+	width: 40%;
+	padding: 15px 0;  /*margen interna*/
+	background: var(--botao-azul);
+	color: var(--cor-texto-botao);
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;   /* arrendonadamento das bordas*/
+	cursor: pointer;   /*colocar a mão zinha*/
+}
+
+.enviar:hover {
+	background: var(--botao-azul-efeito);
+	transform: scale(0.9);
+}
+
+@media screen and (max-width: 768px){
+
+	header {		
+		padding: 50px ;	
+		display: flex;			
+		
+	}
+
+
+	.caixa {
+		margin-bottom: 2.2em;		
+
+	}
+	.contato {
+		
+		display: block;
+	}
+
+	.contato__cabecalho{
+		margin: 0 0.2rem;
+
+	}
+	
+	nav a {
+		display: block;
+		color: var(--cor-texto);		
+		font-size: 18px;		
+		text-align: center;
+		margin-bottom: 0.2em;
+		
+	}
+
+	
+}
